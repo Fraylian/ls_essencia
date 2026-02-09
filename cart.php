@@ -1,5 +1,6 @@
 <?php include 'includes/header.php'; ?>
-<?php require 'data/products.php'; ?>
+<?php include 'includes/header.php'; ?>
+<?php require 'data/all_products.php'; ?>
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <h1 class="font-serif text-4xl font-bold text-brand-dark mb-10 text-center">Tu Carrito de Compras</h1>
@@ -21,8 +22,8 @@
                 <?php 
                 $total = 0;
                 foreach ($_SESSION['cart'] as $id => $qty): 
-                    if (!isset($products[$id])) continue;
-                    $product = $products[$id];
+                    if (!isset($all_products[$id])) continue;
+                    $product = $all_products[$id];
                     $subtotal = $product['price'] * $qty;
                     $total += $subtotal;
                 ?>

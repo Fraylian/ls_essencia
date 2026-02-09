@@ -102,6 +102,7 @@ if (isset($_SESSION['cart'])) {
                 <nav class="hidden md:flex space-x-8 items-center">
                     <a href="index.php" class="text-brand hover:text-pink-sec font-medium transition duration-300">Inicio</a>
                     <a href="index.php#catalogo" class="text-brand hover:text-pink-sec font-medium transition duration-300">Colección</a>
+                    <a href="accessories.php" class="text-brand hover:text-pink-sec font-medium transition duration-300">Accesorios</a>
                     <a href="index.php#about" class="text-brand hover:text-pink-sec font-medium transition duration-300">Nosotros</a>
                 </nav>
 
