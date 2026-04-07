@@ -2,66 +2,83 @@
 $products = [
     1 => [
         'id' => 1,
-        'name' => 'Combo Shampoo y Acondicionador ',
-        'short_desc' => 'Estimula el crecimiento y fortalece tu cabello.',
-        'description' => 'Nuestro Shampoo de Romero está formulado con extractos naturales que revitalizan el cuero cabelludo, promoviendo un crecimiento sano y fuerte desde la raíz. Ideal para cabello fino o con tendencia a la caída.',
-        'ingredients' => 'Agua, Extracto de Romero, Aloe Vera, Aceite de Jojoba, Texapon N70.',
-        'price' => 850.00,
-        'images' => ['assets/img/shampoAcondi.png', 'assets/img/texture.png']
+        'name' => 'Shampoo Reparador (16 oz)',
+        'short_desc' => 'Limpieza suave e hidratación desde la raíz. ',
+        'description' => 'Limpia suavemente el cuero cabelludo sin resecar, eliminando residuos e impurezas mientras prepara el cabello para recibir los siguientes tratamientos. Su fórmula ayuda a restaurar la hidratación natural desde la raíz.',
+        'price' => 600.00,
+        'images' => ['assets/img/shampoedit.png']
     ],
     2 => [
         'id' => 2,
-        'name' => 'Varios Productos',
-        'short_desc' => 'Hidratación profunda y brillo natural.',
-        'description' => 'El Acondicionador de Coco penetra en la fibra capilar para restaurar la humedad perdida. Deja el cabello suave, manejable y con un brillo espectacular.',
-        'ingredients' => 'Agua, Aceite de Coco Orgánico, Manteca de Karité, Vitamina E, Alcohol Cetílico.',
-        'price' => 900.00,
-        'images' => ['assets/img/variosproductos.png', 'assets/img/texture.png']
+        'name' => 'Acondicionador Suavizante (16 oz)',
+        'short_desc' => 'Suavidad, brillo y control del frizz.',
+        'description' => 'Desenreda instantáneamente, aportando suavidad y manejabilidad. Sella la cutícula del cabello, ayudando a reducir el frizz y dejando una textura sedosa.',
+        'price' => 600.00,
+        'images' => ['assets/img/acondicionador.jpeg']
     ],
     3 => [
         'id' => 3,
-        'name' => 'Preepo de romero',
-        'short_desc' => 'Reparación intensiva para cabello dañado.',
-        'description' => 'Rica en grasas saludables y vitaminas, esta mascarilla repara las puntas abiertas y nutre profundamente el cabello maltratado por procesos químicos.',
-        'ingredients' => 'Pulpa de Aguacate, Aceite de Oliva, Miel, Proteína de Seda.',
-        'price' => 1200.00,
-        'images' => ['assets/img/product_generic.jpg', 'assets/img/texture.png']
+        'name' => 'Tratamiento de Hidratación Profunda (16 oz)',
+        'short_desc' => 'Reparación intensiva para cabellos dañados.',
+        'description' => 'Tratamiento intensivo diseñado para restaurar cabellos secos, dañados o maltratados. Penetra la fibra capilar proporcionando hidratación duradera, fuerza y reparación.',
+        'price' => 700.00,
+        'images' => ['assets/img/tratamientoprofundo.jpeg']
     ],
     4 => [
         'id' => 4,
-        'name' => 'Shampoo',
-        'short_desc' => 'Fortalecimiento y grosor para tus hebras.',
-        'description' => 'Conocido por sus propiedades para engrosar el cabello y estimular el crecimiento en zonas despobladas. Úsalo como tratamiento pre-lavado.',
-        'ingredients' => '100% Aceite de Ricino Prensado en Frío.',
-        'price' => 650.00,
-        'images' => ['assets/img/shampoedit.png', 'assets/img/texture.png']
+        'name' => 'Protector Térmico / Leave-in (8 oz)',
+        'short_desc' => 'Protección contra el calor y control del frizz.',
+        'description' => 'Producto sin enjuague que protege el cabello del calor de secadores y planchas. Mantiene la hidratación, controla el frizz y prolonga el efecto liso.',
+        'price' => 800.00,
+        'images' => ['assets/img/protectortermico.png']
     ],
     5 => [
         'id' => 5,
-        'name' => 'Combo de goteros',
-        'short_desc' => 'Definición y control del frizz duradero.',
-        'description' => 'Define tus rizos y ondas con nuestra crema rica en Karité. Aporta fijación suave sin dejar residuos ni sensación pesada.',
-        'ingredients' => 'Manteca de Karité, Aceite de Argan, Agua de Rosas, Glicerina Vegetal.',
-        'price' => 950.00,
-        'images' => ['assets/img/goteros.jpeg', 'assets/img/texture.png']
+        'name' => 'Gotero en Aceite – Nutrición y Fortaleza (2 oz)',
+        'short_desc' => 'Nutrición profunda y control de caida y crecimiento',
+        'description' => 'Un concentrado nutritivo que trabaja directamente en la hebra, ayudando a fortalecer, suavizar e hidratar. Perfecto para realizar “Hair Oiling”. Aporta brillo, controla el frizz y protege el cabello del quiebre.',
+        'price' => 400.00,
+        'images' => ['assets/img/goteroaceite.png']
     ],
     6 => [
         'id' => 6,
-        'name' => 'Gota de brillo',
-        'short_desc' => 'Fijación natural para rizos elásticos.',
-        'description' => 'Olvídate de los geles con alcohol. Nuestro gel de linaza nutre mientras define, dejando tus rizos brillantes y con movimiento.',
-        'ingredients' => 'Semillas de Linaza, Agua, Vitamina E, Aceite Esencial de Lavanda.',
-        'price' => 550.00,
-        'images' => ['assets/img/gotadebrillo.jpeg', 'assets/img/texture.png']
+        'name' => 'Gotero Anticaída y Crecimiento (4 oz)',
+        'short_desc' => 'Fortalece desde la raíz y estimula el crecimiento.',
+        'description' => 'Fórmula ligera de rápida absorción diseñada para actuar desde la raíz. Ayuda a fortalecer el cuero cabelludo, estimular el crecimiento y reducir la caída, aportando vitalidad y equilibrio.',
+        'price' => 850.00,
+        'images' => ['assets/img/goteroagua.png']
     ],
     7 => [
         'id' => 7,
-        'name' => 'Línea completa',
-        'short_desc' => 'Tratamiento concentrado para detener la caída.',
-        'description' => 'Una potente mezcla de hierbas y vitaminas que fortalece el folículo piloso y previene la caída excesiva del cabello.',
-        'ingredients' => 'Jengibre, Canela, Romero, Biotina, Minoxidil Natural.',
-        'price' => 0000.00,
-        'images' => ['assets/img/lienacompleta.png', 'assets/img/texture.png']
-    ]
+        'name' => 'Gotas de Brillo (2 oz)',
+        'short_desc' => 'Luminosidad y suavidad al instante.',
+        'description' => 'Formuladas para aportar brillo inmediato, suavidad y un acabado sedoso sin dejar el cabello pesado. Sellan la fibra capilar y realzan la belleza natural del cabello.',
+        'price' => 400.00,
+        'images' => ['assets/img/gotadebrillo.jpeg']
+    ],
+    8 => [
+        'id' => 8,
+        'name' => 'Línea Completa  (7 pasos)',
+        'short_desc' => 'Tratamiento completo para un cabello saludable.',
+        'description' => 'Una línea completa de 7 pasos diseñada para hidratar profundamente, estimular el crecimiento, controlar el frizz y mantener un cabello saludable. Ideal para cabellos secos, maltratados o con tendencia a la caída.',
+        'price' => 4600.00,
+        'images' => ['assets/img/lienacompleta.jpeg']
+    ],
+    9 => [
+        'id' => 9,
+        'name' => 'Bruma Capilar Hidratante (Oleosa) (4 oz)',
+        'short_desc' => 'Hidratación ligera y fragancia duradera.',
+        'description' => 'Hidrata y perfuma el cabello durante el día, ayudando a mantener el peinado mientras aporta suavidad y un aroma agradable. Además, protege el cabello de los rayos ultravioletas.',
+        'price' => 600.00,
+        'images' => ['assets/img/bruma.jpeg']
+    ],
+    10 => [
+        'id' => 10,
+        'name' => 'Pre Poo de Zanahoria (16 oz)',
+        'short_desc' => 'Nutrición previa al lavado para proteger y fortalecer.',
+        'description' => 'Tratamiento pre-lavado formulado para nutrir, suavizar y proteger el cabello antes del shampoo. Ayuda a prevenir el quiebre, aporta elasticidad y fortalece la fibra capilar, dejando el cabello más resistente, manejable y con un brillo natural desde la primera aplicación.',
+        'price' => 550.00,
+        'images' => ['assets/img/prepu.jpeg']
+    ],
 ];
 ?>
